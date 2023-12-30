@@ -13,7 +13,7 @@ Three quatitative observations with BLIP2-FlanT5-XL are shown below. The model g
 
 ![](figures/motivation.png)
 
-The proposed **ViCrop** framework is illstrated below. We propose five variants of **ViCrop** leveraging either external localization models or native cropping where we utilize the MLLM’s inference time dynamics, i.e., gradients and attention.
+The proposed **ViCrop** framework is illstrated below(the picture is clear, you may need to zoom in). We propose five variants of **ViCrop** leveraging either external localization models or native cropping where we utilize the MLLM’s inference time dynamics, i.e., gradients and attention.
 
 ![](figures/method.png)
 
@@ -66,7 +66,9 @@ wget https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth
 wget https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8x.pt
 ```
 
-Now you will be ready to run the `crop.ipynb` to see how cropping helps BLIP2 answer question better.
+Now you will be ready to run the `external_crop.ipynb` and `native_crop.ipynb` to see how cropping helps BLIP2 answer question better.
+
+You can also adapt the code to your own dataset by following the notebook.
 
 ## Citation
 
