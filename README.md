@@ -21,7 +21,8 @@ Illstration of attention-based cropping:
 
 ![](figures/att.png)
 
-Next, we provide notebook examples for **ViCrop**, it is encouraged to test our pipeline on different datasets and models.
+Next, we provide notebook examples for **ViCrop**. We encourage to test the pipeline on different datasets and models!
+
 
 ## Testing Cropping Methods and See How Cropping helps BLIP2 Answer Question Better
 
@@ -85,4 +86,4 @@ If you find our research to be useful or insightful, please consider citing the 
 
 ## Contact
 
--   `jrzhang [AT] isi.edu`
+-   `jzhang37@usc.edu`
