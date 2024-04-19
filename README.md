@@ -38,6 +38,7 @@ Clone the repoisitory
 ```
 git clone https://github.com/saccharomycetes/vicrop.git
 cd vicrop
+unzip LAVIS.zip
 ```
 
 Since we have made a modification to the original [LAVIS](https://github.com/salesforce/LAVIS) library, please use the following command to install the modified LAVIS library.
